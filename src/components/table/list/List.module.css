@@ -1,0 +1,11 @@
+.list {
+  width: 100%;
+  background-color: #fff;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px 2px rgba(111, 111, 111, 0.29);
+  overflow: hidden;
+  cursor: pointer;
+}

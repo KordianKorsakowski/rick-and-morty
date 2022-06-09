@@ -1,0 +1,9 @@
+.menu {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(85, 85, 85);
+}
+
+.menu p {
+  margin-bottom: 0;
+}

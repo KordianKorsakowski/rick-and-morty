@@ -1,0 +1,16 @@
+.li {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.li:hover {
+  background-color: rgba(177, 177, 177, 0.447);
+}
+.tick {
+  background-color: rgba(177, 177, 177, 0.447);
+}

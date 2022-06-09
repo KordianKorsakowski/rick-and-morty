@@ -1,0 +1,30 @@
+.location {
+  width: max-content;
+  height: max-content;
+  border-radius: 10px;
+  border: 1px solid;
+  border: 1px solid rgb(208, 208, 208);
+  background-color: #fff;
+  position: absolute;
+  left: 30%;
+  transform: translateY(5rem);
+  z-index: 5;
+}
+.location p:first-child {
+  border-bottom: 1px solid rgb(208, 208, 208);
+  font-size: 1.2rem;
+  color: #777;
+  padding: 10px 0 10px 5px;
+}
+.location p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 5px;
+  font-size: 1.4rem;
+}
+.location p:last-child {
+  font-size: 1.3rem;
+}
+.name {
+  font-weight: bold;
+}

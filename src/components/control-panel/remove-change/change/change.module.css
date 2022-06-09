@@ -1,0 +1,25 @@
+.list {
+  position: absolute;
+  list-style: none;
+  background-color: #fff;
+  width: 16rem;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid rgb(177, 177, 177);
+  overflow: auto;
+  z-index: 10;
+}
+.list li {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.list li:hover {
+  background-color: rgba(177, 177, 177, 0.447);
+}
